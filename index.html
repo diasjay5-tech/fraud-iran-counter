@@ -1,151 +1,131 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Losses vs Iran War — Live Counter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Digital+7&display=swap');
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(#0a0a0a, #1a1a2e);
+            color: #00ff9f;
+            text-align: center;
+            padding: 60px 20px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px #ffcc00;
+        }
+        .subtitle {
+            color: #ffaa00;
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .counter-container {
+            background: rgba(0,0,0,0.75);
+            border: 4px solid #00ff9f;
+            border-radius: 20px;
+            padding: 40px 30px;
+            max-width: 920px;
+            margin: 25px auto;
+            box-shadow: 0 0 40px rgba(0, 255, 159, 0.4);
+            width: 100%;
+        }
+        .label {
+            font-size: 1.35rem;
+            color: #aaffcc;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 600;
+        }
+        .counter {
+            font-family: 'Digital 7', monospace;
+            font-size: 4.2rem;
+            font-weight: bold;
+            letter-spacing: 6px;
+            color: #00ff41;
+            text-shadow: 0 0 15px #00ff41;
+        }
+        .net .counter {
+            color: #ff3366;
+            text-shadow: 0 0 15px #ff3366;
+        }
+        .note {
+            max-width: 820px;
+            margin: 50px auto 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #888;
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: left;
+        }
+        .highlight { color: #ffcc00; }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Fraud Losses vs Iran War — Live Counter&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@import url('https://fonts.googleapis.com/css2?family=Digital+7&amp;display=swap');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Segoe UI', Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(#0a0a0a, #1a1a2e);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #00ff9f;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 60px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffcc00;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 20px #ffcc00;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.subtitle {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffaa00;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.counter-container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(0,0,0,0.75);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 4px solid #00ff9f;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 30px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 920px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 25px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 40px rgba(0, 255, 159, 0.4);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.label {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.35rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #aaffcc;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 3px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.counter {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Digital 7', monospace;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #00ff41;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 15px #00ff41;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.net .counter {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ff3366;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 0 0 15px #ff3366;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.note {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 820px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 50px auto 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #888;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(0,0,0,0.6);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.highlight { color: #ffcc00; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;US GOVERNMENT FRAUD LOSSES&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="subtitle"&gt;— MINUS THE COST OF THE IRAN WAR —&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="counter-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="label"&gt;Total Billions Lost to Fraud (GAO High Estimate — Annual)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="counter" id="fraud"&gt;$521,000,000,000&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="counter-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="label"&gt;Iran War Cost (Real-Time Accumulation)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="counter" id="war"&gt;$15,234,567,890&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div style="margin-top: 12px; font-size: 1.1rem; color: #ffaa00;"&gt;≈ $1 billion per day (Pentagon data)&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="counter-container net"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="label"&gt;NET AFTER SUBTRACTING WAR COSTS&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="counter" id="net"&gt;$505,765,432,110&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="note"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;strong&gt;How this works:&lt;/strong&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>• Starts with the GAO’s upper estimate of &lt;span class="highlight"&gt;$521 billion&lt;/span&gt; lost annually to federal government fraud (2026 data).&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>• Real-time subtraction based on the ongoing Iran war (“Operation Epic Fury”) at ~$1 billion per day (~$11,574 per second), consistent with Pentagon briefings ($11.3 billion in the first 6 days).&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>• Numbers update live every second. War cost is simulated from an approximate current total (~$15B+ as of mid-March 2026).&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>• Copy this entire page into a file called &lt;code&gt;fraud-iran-counter.html&lt;/code&gt; and open it in any browser — it runs 100% offline.&lt;br&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;em&gt;Want to tweak the starting fraud amount, war rate, or current war total? Just edit the three variables in the &amp;lt;script&amp;gt; section at the bottom.&lt;/em&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>// ==================== CUSTOMIZE THESE VALUES ====================</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let fraud = 521000000000; <span class="Apple-converted-space">          </span>// Starting fraud (GAO high: $521 billion)</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let warCost = 15234567890;<span class="Apple-converted-space">          </span>// Current estimated Iran war total so far</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const warRatePerSecond = 1000000000 / 86400;<span class="Apple-converted-space">  </span>// $1 billion per day</p>
-<p class="p1"><span class="Apple-converted-space">        </span>// =================================================================</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>const fraudEl = document.getElementById('fraud');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const warEl = document.getElementById('war');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>const netEl = document.getElementById('net');</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function formatMoney(amount) {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>return '$' + Math.floor(amount).toLocaleString('en-US');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>function updateDisplay() {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>warCost += warRatePerSecond;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const net = Math.max(0, fraud - warCost);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>fraudEl.textContent = formatMoney(fraud);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>warEl.textContent = formatMoney(warCost);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>netEl.textContent = formatMoney(net);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>// Live update every second</p>
-<p class="p1"><span class="Apple-converted-space">        </span>setInterval(updateDisplay, 1000);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>// Initial display</p>
-<p class="p1"><span class="Apple-converted-space">        </span>updateDisplay();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <h1>US GOVERNMENT FRAUD LOSSES</h1>
+    <p class="subtitle">— MINUS THE COST OF THE IRAN WAR —</p>
+
+    <div class="counter-container">
+        <div class="label">Total Billions Lost to Fraud (GAO High Estimate — Annual)</div>
+        <div class="counter" id="fraud">$521,000,000,000</div>
+    </div>
+
+    <div class="counter-container">
+        <div class="label">Iran War Cost (Real-Time Accumulation)</div>
+        <div class="counter" id="war">$15,234,567,890</div>
+        <div style="margin-top: 12px; font-size: 1.1rem; color: #ffaa00;">≈ $1 billion per day (Pentagon data)</div>
+    </div>
+
+    <div class="counter-container net">
+        <div class="label">NET AFTER SUBTRACTING WAR COSTS</div>
+        <div class="counter" id="net">$505,765,432,110</div>
+    </div>
+
+    <div class="note">
+        <strong>How this works:</strong><br>
+        • Starts with the GAO’s upper estimate of <span class="highlight">$521 billion</span> lost annually to federal government fraud (2026 data).<br>
+        • Real-time subtraction based on the ongoing Iran war (“Operation Epic Fury”) at ~$1 billion per day (~$11,574 per second).<br>
+        • Numbers update live every second. War cost is simulated from mid-March 2026 totals.
+    </div>
+
+    <script>
+        // ==================== CUSTOMIZE THESE VALUES ====================
+        let fraud = 521000000000;           // Starting fraud (GAO high: $521 billion)
+        let warCost = 15234567890;          // Current estimated Iran war total so far
+        const warRatePerSecond = 1000000000 / 86400;  // $1 billion per day
+        // =================================================================
+
+        const fraudEl = document.getElementById('fraud');
+        const warEl = document.getElementById('war');
+        const netEl = document.getElementById('net');
+
+        function formatMoney(amount) {
+            return '$' + Math.floor(amount).toLocaleString('en-US');
+        }
+
+        function updateDisplay() {
+            warCost += warRatePerSecond;
+            const net = Math.max(0, fraud - warCost);
+
+            fraudEl.textContent = formatMoney(fraud);
+            warEl.textContent = formatMoney(warCost);
+            netEl.textContent = formatMoney(net);
+        }
+
+        setInterval(updateDisplay, 1000);
+        updateDisplay();
+    </script>
 </body>
 </html>
